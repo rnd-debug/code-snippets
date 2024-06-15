@@ -31,6 +31,15 @@ Includes only the domain. Sent with CORS and same-origin other than GET and HEAD
 ## Natas5
 The response had a "Set-Cookie" header. Cookies can be modified in dev tools.
 
+## Natas8
+- `xxd` to create an hexa dump. ``xxd -r` to revert.
+- `rev` to revert lines in a file and revert those lines.
+
+echo "3d 3d 51 63 43 74 6d 4d 6d 6c 31 56 69 56 33 62" | xxd -r
+
+echo "==QcCtmMml1ViV3b" | rev | base64 -d
+
+
 ## To catch up
 natas2 TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI
 natas3:3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
@@ -38,3 +47,7 @@ natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
 natas5 is 0n35PkggAPm2zbEpOU802c0x0Msn1ToK
 natas6 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
 natas7 bmg8SvU1LizuWjx3y7xkNERkHxGre0GS
+natas8 xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q
+natas9 is ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
+natas10 t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu
+natas11:UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk 
